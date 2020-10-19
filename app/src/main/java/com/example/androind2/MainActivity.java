@@ -14,12 +14,12 @@ TextView tv;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv=findViewById(R.id.txtresult);
+        tv=findViewById(R.id.txtResult);
     }
 
     public void methodToDo(View view) {
         x++;
-        string st=getString(R.string.textOnTextBox);
+        String st=getString(R.string.textOnTextBox);
         tv.setText(st + "");
     }
 }
