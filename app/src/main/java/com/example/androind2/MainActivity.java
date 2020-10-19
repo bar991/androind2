@@ -3,7 +3,6 @@ package com.example.androind2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.TextureView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -20,6 +19,6 @@ TextView tv;
     public void methodToDo(View view) {
         x++;
         String st=getString(R.string.textOnTextBox);
-        tv.setText(st + "");
+        tv.setText(st + ""+ x);
     }
 }
